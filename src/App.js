@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/App.css";
+import helmet from 'helmet';
 
 import AuthService from "./services/auth.service";
 import Login from "./components/Login";
@@ -12,6 +13,8 @@ import BoardUser from "./components/BoardUser";
 import BoardTeacher from "./components/BoardTeacher";
 import Resolver from "./components/Exercises/Resolver";
 import EventBus from "./common/EventBus";
+
+helmet();
 
 const App = () => {
   const [showTeacherBoard, setShowTeacherBoard] = useState(false);
