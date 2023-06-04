@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://tfgjaimeback.fly.dev/api/auth/";
+const API_URL = "https://tfgjaimeback.fly.dev/api/auth/";
 
 const register = (email, password, teacher, role) => {
   return axios.post(API_URL + "signup", {
