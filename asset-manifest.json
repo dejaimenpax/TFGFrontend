@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dejaimenpax/TFGFrontend/static/css/main.f1befd82.css",
+    "main.js": "/dejaimenpax/TFGFrontend/static/js/main.8272685a.js",
+    "index.html": "/dejaimenpax/TFGFrontend/index.html",
+    "main.f1befd82.css.map": "/dejaimenpax/TFGFrontend/static/css/main.f1befd82.css.map",
+    "main.8272685a.js.map": "/dejaimenpax/TFGFrontend/static/js/main.8272685a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1befd82.css",
+    "static/js/main.8272685a.js"
+  ]
+}
